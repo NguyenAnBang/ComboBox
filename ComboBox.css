@@ -1,0 +1,107 @@
+﻿#gender {
+    position: absolute;
+    top: calc(50% - 130px);
+    left: calc(50% - 300px);
+}
+.combobox{
+    margin-top: 12px;
+    display:flex;
+    border: 1px solid;
+    width: 225px;
+    border-radius: 4px;
+    outline: 5px solid;
+}
+
+#input_text {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 300px);
+    width: 200px;
+    height: 36px;
+    outline: none;
+    border: 1px solid;
+    border-color: #BBBBBB;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-collapse: collapse;
+}
+
+
+
+.dropbox {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: calc(50% - 100px);
+    right: calc(50% + 74px);
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid;
+    border-left: none;
+    border-color: #BBBBBB;
+    outline: none;
+    background-color: #E9EBEE;
+    border-collapse: collapse;
+    background-image: url('dropdown_arrow-512.png');
+    background-repeat:no-repeat;
+    background-size:16px;
+    background-position:center;
+}
+
+#demo {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 50px);
+    width: 200px;
+    height: 36px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 4px;
+}
+#options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: calc(50% - 60px);
+    left: calc(50% - 300px);
+}
+
+.options_hide {
+    display: none;
+}
+
+
+.option {
+    margin-top: 4px;
+    height: 40px;
+    width: 189px;
+    padding-left: 36px;
+    display: flex;
+    align-items: center;
+    border: 1px;
+    outline: none;
+}
+
+    .option:hover {
+        /*background-color: #E9EBEE;*/
+        cursor:pointer;
+    }
+
+.hover {
+    background-color: #E9EBEE;
+}
+
+.selected {
+    background-color: #019160;
+    color: white;
+    border: 1px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+    background-image: url('tick.jpg');
+}
+
+
